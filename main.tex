@@ -56,6 +56,59 @@
 
 % START START START START START START START START START START START START START
 
+\begin{frame}{IRIS-HEP}
+\vspace{0.17 cm}
+\begin{columns}
+\column{1.2\linewidth}
+\includegraphics[width=\linewidth]{iris-hep-top.png}
+
+\includegraphics[width=\linewidth]{iris-hep-bot.png}
+\end{columns}
+\end{frame}
+
+\begin{frame}{IRIS-HEP Analysis Systems}
+\begin{columns}[t]
+\column{0.5\linewidth}
+
+{\large NYU: Kyle Cranmer}
+
+Statistics, analysis reinterpretation, full-workflow portability
+
+\vspace{0.2 cm}
+\includegraphics[height=1.5 cm]{Kyle-Cranmer.jpg}
+
+\vspace{0.5 cm}
+{\large UW: Gordon Watts, Emma Torro, Mason Proffitt}
+
+Analysis language/\only<1>{expressing queries}\only<2>{\textcolor{darkblue}{expressing queries}}
+
+\vspace{0.2 cm}
+\includegraphics[height=1.5 cm]{Gordon-Watts.jpg}
+\includegraphics[height=1.5 cm]{ETorro.png}
+\includegraphics[height=1.5 cm]{Mason-Proffitt.jpg}
+
+\column{0.5\linewidth}
+
+{\large Illinois: Mark Neubauer, Ben Galewsky}
+
+Data delivery (iDDS) and \only<1>{distributed query execution}\only<2>{\textcolor{darkblue}{distributed query execution}}
+
+\vspace{0.2 cm}
+\includegraphics[height=1.5 cm]{Mark-Neubauer.png}
+\includegraphics[height=1.5 cm]{Ben-Galewsky.jpg}
+
+\vspace{0.5 cm}
+{\large Princeton: Jim Pivarski, Henry Schreiner}
+
+\only<1>{Columnar query execution}\only<2>{\textcolor{darkblue}{Columnar query execution}}, distributed histogramming
+
+\vspace{0.2 cm}
+\includegraphics[height=1.5 cm]{Jim-Pivarski.jpg}
+\includegraphics[height=1.5 cm]{Henry-Schreiner.jpg}
+
+\end{columns}
+\end{frame}
+
 \begin{frame}{Coffea is tightly connected with analysis software R\&D}
 \vspace{0.5 cm}
 \includegraphics[width=\linewidth]{analysis-connections.png}
@@ -67,9 +120,20 @@
 \begin{itemize}\setlength{\itemsep}{0.5 cm}
 \item PyHEP/Scikit-HEP (mostly the same people): Coffea uses Pythonic HEP tools and contributes back to the community.
 \item IRIS-HEP Analysis Systems: working with Ben Galewsky on Spark scale-out software.
-\item IRIS-HEP Analysis Systems: working with me---great feedback on tools.
+\item IRIS-HEP Analysis Systems: working with me---great feedback!
 \item Vanderbilt: working with Andrew Melo on Spark scale-out infrastructure (and software).
 \end{itemize}
+\end{frame}
+
+\begin{frame}{The value of a real physics use-case can't be overstated}
+\Large
+\vspace{0.25 cm}
+I've been trying to get ``embedded'' with a physics group like this for several years. (For example, XENON-nT.)
+
+\vspace{0.25 cm}
+
+
+
 \end{frame}
 
 \end{document}
